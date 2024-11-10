@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table border="5px">
+        <thead>
+            <tr>
+                <td border="5px" colspan="3" style="text-align: center;"><strong>registration Form</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <form action="" method="post">
+
+                <tr>
+                    <td>First name</td>
+                    <td><input type="text" name="fname" id="fname"></td>
+                </tr>
+                <tr>
+                    <td>Last name</td>
+                    <td><input type="text" name="lname" id="lname"></td>
+                </tr>
+                <tr>
+                    <td>Pass</td>
+                    <td><input type="password" name="pass" id="pass"></td>
+                </tr>
+                <tr>
+                    <td>Track</td>
+                    <td>
+                        <select name="track" id="track">
+                            <option value="BI">AI</option>
+                            <option value="BI">BI</option>
+                            <option value="BI">CI</option>
+                            <option value="BI">DI</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Gender</td>
+                    <td><input type="radio" name="Male" id="">Male</td>
+                </tr>
+                <tr>
+                    <td> <input type="radio" name="Female" id="">Female</td>
+                </tr>
+                <tr>
+                    <td>Favorites</td>
+                    <td colspan="3"><input type="checkbox" name="football" id="footall">football <input type="checkbox" name="basketball" id="basketball">basketball
+                        <br>
+                        <input type="checkbox" name="games" id="games">games
+                        <br>
+                        <input type="checkbox" name="reading" id="reading">reading
+                        <input type="checkbox" name="swimming" id="swimming">swimming
+                        <br>
+                        <input type="checkbox" name="Trave" id="Trave">Trave
+                        <br>
+                    </td>
+                </tr>
+                <br>
+                <tr>
+                    <td>description</td>
+                    <td><textarea name="desc" id="desc" cols="20" rows="6"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="submit">
+                        <input type="submit" value="reset">
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td colspan="2"><input type="file" name="upload" id="upload"></td>
+                </tr> -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><input type="file" name="upload" id="upload"></td>
+            </tr>
+        </tfoot>
+        </form>
+    </table>
+</body>
+
+</html>
